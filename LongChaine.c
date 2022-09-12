@@ -29,6 +29,6 @@ int main(){
 	char *text;
 	text=malloc(30);
 	printf("entrer votre nom:");
-	scanf(" %s",text);
+	gets(text);
 	printf("votre nom compte %d caractéres:",long_de_chaine(text));
 }
